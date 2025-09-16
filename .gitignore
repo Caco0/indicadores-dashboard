@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+*.env
+instance/
+.mypy_cache/
+.vscode/
+
+# Flask / Local settings
+*.sqlite3
+*.db
+*.log
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
+.cache/
+
+# React
+*.map
+.env.local
+.env.development
+.env.test
+.env.production
+
+# System
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+Thumbs.db
+.DS_Store
+
+# Docker
+*.pid
+*.sock
+
+# Others
+coverage/
+htmlcov/
+*.cover
+*.pyc
+*.pyo
+.pytest_cache/
